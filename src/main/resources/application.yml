@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pavanponnella/Config-server.git
+          clone-on-start: true
+management:
+  security:
+    enabled: false
+    
